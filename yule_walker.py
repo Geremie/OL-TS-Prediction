@@ -55,8 +55,10 @@ def computeARCoefs(X, p):
     coefs = inv(ywMatrix).dot(corrsReshaped)
     return coefs
 
-def generateAR(p):
-    
+def generateAR(coefs):
+    x0 = np.random.norm()
+    x = [x0]
+    for i 
     return 0
 
 def testAlgorithm(p):
